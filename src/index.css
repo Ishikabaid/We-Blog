@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+* {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  color: #333;
+  background-color: #fff;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid lightpink;
+}
+
+.Navbar h1{
+  color: #003049;
+  font-family: 'Festive', cursive;
+  font-size: 35px;
+}
+
+.Navbar .links{
+  margin-left: auto;
+}
+
+.Navbar a{
+  padding: 6px;
+  margin-left: 16px;
+  text-decoration: none;
+  color: white;
+  background-color: #f1356d;
+  border-radius: 8px;
+}
+
+.Navbar a:hover{
+  background-color: #ce085b;
+}
+
+.content {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.create h2{
+  text-align: center;
+  margin-top: -0.7rem;
+  margin-bottom: 30px;
+}
+
+.create input, .create textarea{
+  display: block;
+  border-radius: 7px;
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 2px solid #184e77;
+  box-sizing: border-box;
+}
+
+.create button {
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 45%;
+  margin-top: 5px;
+  background-color: #33b2f7;
+  color: white;
+  border: 0;
+}
+
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #c5c6e0;
+}
+
+.blog-preview:hover {
+  box-shadow: 2px 5px 8px rgba(1, 2, 15, 0.1);
+}
+.blog-preview h2 {
+  font-size: 25px;
+  color: #33b2f7;
+  margin-bottom: 8px;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+.blog-preview p {
+  font-size: 20px;
+}
+.blog-preview span {
+  font-weight: bold;
+}
+
+.blog-details:hover {
+  box-shadow: 1px 3px 5px rgba(1, 4, 29, 0.1);
+}
+.blog-details button {
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 50%;
+  margin-top: 5px;
+  background-color: #33b2f7;
+  color: white;
+  border: 0;
+}
+
+.blog-details h2 {
+  font-size: 30px;
+  color: #023e7d;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+  font-size: larger;
+}
+.blog-details p {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.create label{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.create textarea{
+  height: 250px;
+}
